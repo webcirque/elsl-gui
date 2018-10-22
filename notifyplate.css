@@ -28,6 +28,7 @@
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
     color: #fff;
     font-family: "Microsoft Yahei", "Microsoft Jhenghei", MicrosoftYahei;
+    transition: right 1s;
 }
 
 .-notifyplate-item .-notifyplate-title {
@@ -48,4 +49,5 @@
     top: -2px;
     right: 4px;
     font-size: 15px;
+    cursor: default;
 }
