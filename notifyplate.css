@@ -1,0 +1,41 @@
+.-notifyplate- {
+	position: fixed;
+	right: 0;
+	width: 300px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+
+.-notifyplate-item .-notifyplate-icon {
+    position: relative;
+    float: left;
+    margin: 4px;
+    width: 48px;
+    height: 48px;
+}
+
+.-notifyplate-item {
+    min-height: 80px;
+    background: #009fff;
+    margin: 2px;
+    border: 0 solid;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+    color: #fff;
+    font-family: "Microsoft Yahei", "Microsoft Jhenghei", MicrosoftYahei;
+}
+
+.-notifyplate-item .-notifyplate-title {
+    margin: 2px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.-notifyplate-content {
+    font-size: 14px;
+    margin-left: 4px;
+}
