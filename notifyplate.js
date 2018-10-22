@@ -1,3 +1,4 @@
+// Debugging at https://code.sololearn.com/W2AvJg96e2V4/
 document.onreadystatechange = () => {
     if (document.readyState.toLowerCase() == "interactive") {
         // Interactive
@@ -13,6 +14,7 @@ document.onreadystatechange = () => {
                 }
                 Notify.list[count].getElementsByClassName("-notifyplate-close")[0].onclick = function () {
                     this.parentNode.class = "-notifyplate-item-hidden";
+                    this.parentNode.remove();
                     Notify.reformat();
                 };
                 count ++;
