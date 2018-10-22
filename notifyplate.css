@@ -17,7 +17,10 @@
 }
 
 .-notifyplate-item {
+    position: absolute;
     min-height: 80px;
+    width: 100%;
+    right: 1px;
     background: #009fff;
     margin: 2px;
     border: 0 solid;
@@ -38,4 +41,11 @@
 .-notifyplate-content {
     font-size: 14px;
     margin-left: 4px;
+}
+
+.-notifyplate-close {
+    position: absolute;
+    top: -2px;
+    right: 4px;
+    font-size: 15px;
 }
