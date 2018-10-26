@@ -1,18 +1,22 @@
 @keyframes exitAnime {
     0% {
         right: 1px;
+        opacity: 1;
     }
     100% {
         right: -110%;
+        opacity: 0;
     }
 }
 
 @keyframes loadAnime {
     0% {
         right: -110%;
+        opacity: 0;
     }
     100% {
         right: 1px;
+        opacity: 1;
     }
 }
 
