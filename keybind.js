@@ -59,6 +59,47 @@ function KeyPattern(key) {
                     case "BACKSPACE":
                         this.key = 8;
                         break;
+                    case "ESC":
+                    case "ESCAPE":
+                        this.key = 27;
+                        break;
+                    case "[":
+                        this.key = 219;
+                        break;
+                    case "]":
+                        this.key = 221;
+                        break;
+                    case "-":
+                    case "MINUS":
+                        this.key = 189;
+                        break;
+                    case "=":
+                    case "EQUAL":
+                        this.key = 187;
+                        break;
+                    case "\\":
+                    case "BACKSLASH":
+                        this.key = 220;
+                        break;
+                    case ";":
+                    case "SEMICOLON":
+                        this.key = 219;
+                        break;
+                    case "'":
+                        this.key = 219;
+                        break;
+                    case ",":
+                        this.key = 219;
+                        break;
+                    case ".":
+                        this.key = 219;
+                        break;
+                    case "/":
+                        this.key = 219;
+                        break;
+                    case "`":
+                        this.key = 219;
+                        break;
                     default:
                         if (arr[count].match(/[A-Z0-9]/)[0] == arr[count]) {
                             this.key = arr[count].charCodeAt(0);
