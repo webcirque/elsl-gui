@@ -79,6 +79,11 @@
     cursor: default;
 }
 
+.-notifyplate-close:active {
+    color: #555;
+    text-shadow: 0 0 4px #000;
+}
+
 .-notifyplate-item-hidden {
     animation: exitAnime 0.25s 1 ease-in;
     animation-fill-mode: forwards;
