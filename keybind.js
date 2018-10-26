@@ -109,6 +109,22 @@ function KeyPattern(key) {
                     case "MENU":
                         this.key = 93;
                         break;
+                    case "LC":
+                    case "LCLICK":
+                    case "LEFTCLICK":
+                    case "MAJORCLICK":
+                        this.mouse = 1;
+                        break;
+                    case "MC":
+                    case "MCLICK":
+                    case "MIDDLECLICK":
+                        this.mouse = 2;
+                        break;
+                    case "RC":
+                    case "RCLICK":
+                    case "RIGHTCLICK":
+                        this.mouse = 3;
+                        break;
                     default:
                         if (arr[count].match(/[A-Z0-9]/)[0] == arr[count]) {
                             this.key = arr[count].charCodeAt(0);
