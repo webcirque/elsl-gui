@@ -83,22 +83,27 @@ function KeyPattern(key) {
                         break;
                     case ";":
                     case "SEMICOLON":
-                        this.key = 219;
+                        this.key = 186;
                         break;
                     case "'":
-                        this.key = 219;
+                        this.key = 222;
                         break;
                     case ",":
-                        this.key = 219;
+                    case "COMMA":
+                        this.key = 188;
                         break;
                     case ".":
-                        this.key = 219;
+                    case "PERIOD":
+                    case "FULLSTOP":
+                        this.key = 190;
                         break;
                     case "/":
-                        this.key = 219;
+                    case "SLASH":
+                        this.key = 191;
                         break;
                     case "`":
-                        this.key = 219;
+                    case "GRAVE":
+                        this.key = 192;
                         break;
                     default:
                         if (arr[count].match(/[A-Z0-9]/)[0] == arr[count]) {
