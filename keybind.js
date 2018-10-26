@@ -24,6 +24,7 @@ function KeyPattern(key) {
                         this.alt = true;
                         break;
                     case "SUPER":
+                    case "META":
                         this.super = true;
                         break;
                     case "HOME":
@@ -104,6 +105,9 @@ function KeyPattern(key) {
                     case "`":
                     case "GRAVE":
                         this.key = 192;
+                        break;
+                    case "MENU":
+                        this.key = 93;
                         break;
                     default:
                         if (arr[count].match(/[A-Z0-9]/)[0] == arr[count]) {
